@@ -1,0 +1,27 @@
+-------Data Location----------
+WorkspaceDirectory: /mnt/e/compass_ver1x/SPS_SABRE_EventBuilder/WorkingData/11B
+-------------------------------
+------Experimental Inputs------
+ChannelMapFile: /mnt/e/compass_ver1x/SPS_SABRE_EventBuilder/WorkingData/ChannelMap_Feb2021_SABRE.txt
+ScalerFile: /mnt/e/compass_ver1x/SPS_SABRE_EventBuilder/WorkingData/ScalerFile_Feb2021_SABRE.txt
+CutListFile: /mnt/e/compass_ver1x/SPS_SABRE_EventBuilder/WorkingData/CutList_Feb2021_LiF.txt
+ZT: 5
+AT: 11
+ZP: 2
+AP: 3
+ZE: 2
+AE: 4
+BField(G): 7301.42
+BeamKE(MeV): 7.5
+Theta(deg): 20
+-------------------------------
+-------Timing Information------
+BoardOffsetFile: /mnt/e/compass_ver1x/SPS_SABRE_EventBuilder/WorkingData/ShiftMap_Feb2021_SABRE.txt
+SlowCoincidenceWindow(ps): 1500000
+FastCoincidenceWindow_IonCh(ps): 1500000
+FastCoincidenceWindow_SABRE(ps): 1500000
+-------------------------------
+--------Run Information--------
+MinRun: 193
+MaxRun: 285
+-------------------------------

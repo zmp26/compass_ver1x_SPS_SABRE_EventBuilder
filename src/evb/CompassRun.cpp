@@ -201,8 +201,10 @@ namespace EventBuilder {
 				m_progressCallback(flush_count*flush, m_totalHits);
 			}
 	
-			if(!GetHitsFromFiles()) 
+			if(!GetHitsFromFiles()){
+				std::cout << "got here..." << std::endl;
 				break;
+			}
 			outtree->Fill();
 		}
 	
