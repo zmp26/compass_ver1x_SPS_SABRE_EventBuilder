@@ -22,6 +22,6 @@ FastCoincidenceWindow_IonCh(ps): 1500000
 FastCoincidenceWindow_SABRE(ps): 1500000
 -------------------------------
 --------Run Information--------
-MinRun: 171
-MaxRun: 267
+MinRun: 191
+MaxRun: 191
 -------------------------------

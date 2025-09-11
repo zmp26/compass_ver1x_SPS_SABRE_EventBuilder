@@ -18,6 +18,8 @@ objs/
 *.sublime-project
 *.sublime-workspace
 *.make
+*.tar.gz
+*.zip
 Makefile
 event_log.txt
 .DS_Store
