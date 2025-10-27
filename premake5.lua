@@ -5,8 +5,11 @@ workspace "EVB"
 		"Debug"
 	}
 
-ROOTIncludeDir = "/home/zmpur/root_63408/root/include"
-ROOTLibDir = "/home/zmpur/root_63408/root/lib"
+--ROOTIncludeDir = "/home/zmpur/root_63408/root/include"--for laptop
+--ROOTLibDir = "/home/zmpur/root_63408/root/lib"--for laptop
+
+ROOTIncludeDir = "/home/zmpur/root/include"--for desktop
+ROOTLibDir = "/home/zmpur/root/lib"--for desktop
 
 project "SPSDict"
 	kind "SharedLib"
