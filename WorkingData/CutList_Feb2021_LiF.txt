@@ -1,0 +1,6 @@
+Name File VarX VarY
+#edeAlphas /mnt/e/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/LiF/analyzed/run191_ABvsSL_alphas_cut.root scintLeft anodeBack
+#edeTritons /mnt/e/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/LiF/analyzed/run191_ABvsSL_tritons_cut.root scintLeft anodeBack
+#edeDeuterons /mnt/e/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/LiF/analyzed/run191_ABvsSL_deuterons_cut.root scintLeft anodeBack
+#edeProtons /mnt/e/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/LiF/analyzed/run191_ABvsSL_protons_cut.root scintLeft anodeBack
+#x1x2 /mnt/e/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/LiF/analyzed/run191_x1vsx2cut.root
