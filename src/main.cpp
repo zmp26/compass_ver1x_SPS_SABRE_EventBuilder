@@ -17,6 +17,16 @@ int main(int argc, char** argv)
 	std::string operation = argv[1];
 
 
+	/*
+		command something like
+		
+			bin/EventBuilder ConvertSlowA LiF_input.txt
+			
+			|______________| |__________| |___________|
+				EVB exec.	  operation     input file
+
+	*/
+
 	/* DEFAULT Operation Types:
 		Convert (convert binary archive to root data)
 		ConvertSlow (convert binary arhcive to event slow data)
