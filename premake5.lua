@@ -21,7 +21,8 @@ project "SPSDict"
 	}
 
 	postbuildcommands {
-		"{COPY} src/spsdict/DataStructs.h ./include/"
+		"{COPY} src/spsdict/DataStructs.h ./include/",
+		"{COPY} %{cfg.buildtarget.directory}/sps_dict_rdict.pcm %{cfg.buildtarget.directory}/libSPSDict_rdict.pcm"--added 10/27/2025 to handle name mismatch between pcm and so
 	}
 
 	files {
