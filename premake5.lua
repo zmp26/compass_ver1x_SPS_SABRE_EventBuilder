@@ -8,8 +8,8 @@ workspace "EVB"
 --ROOTIncludeDir = "/home/zmpur/root_63408/root/include"--for laptop
 --ROOTLibDir = "/home/zmpur/root_63408/root/lib"--for laptop
 
-ROOTIncludeDir = "/home/zmpur/root/include"--for desktop
-ROOTLibDir = "/home/zmpur/root/lib"--for desktop
+ROOTIncludeDir = "/home/zachpurcell/root/include"--for desktop
+ROOTLibDir = "/home/zachpurcell/root/lib"--for desktop
 
 project "SPSDict"
 	kind "SharedLib"
@@ -19,7 +19,8 @@ project "SPSDict"
 	objdir "./objs/"
 
 	prebuildcommands {
-		"rootcint -f src/spsdict/sps_dict.cxx src/spsdict/DataStructs.h src/spsdict/LinkDef_sps.h",
+		--"rootcint -f src/spsdict/sps_dict.cxx src/spsdict/DataStructs.h src/spsdict/LinkDef_sps.h",--replaced with rootcling below
+		"rootcling -f src/spsdict/sps_dict.cxx -s lib/libSPSDict.so src/spsdict/DataStructs.h src/spsdict/LinkDef_sps.h",
 		"{COPY} src/spsdict/*.pcm ./lib/"
 	}
 
@@ -39,7 +40,7 @@ project "SPSDict"
 		"src/spsdict",
 	}
 
-	sysincludedirs {
+	includedirs {
 		ROOTIncludeDir
 	}
 
@@ -92,7 +93,7 @@ project "EventBuilderCore"
 		"src/guidict"
 	}
 
-	sysincludedirs {
+	includedirs {
 		ROOTIncludeDir
 	}
 
@@ -147,7 +148,7 @@ project "EventBuilderGui"
 		"src/guidict"
 	}
 
-	sysincludedirs {
+	includedirs {
 		ROOTIncludeDir
 	}
 
@@ -193,7 +194,7 @@ project "EventBuilder"
 		"src/guidict"
 	}
 
-	sysincludedirs {
+	includedirs {
 		ROOTIncludeDir
 	}
 
