@@ -74,7 +74,7 @@ namespace EventBuilder {
 		MyFill(table,"x2_delayFrontAvgE_NoCuts",600,-300,300,ev.x2,512,0,4096,delayFrontAvgE);
 		MyFill(table,"xavg_delayFrontAvgE_NoCuts",600,-300,300,ev.xavg,512,0,4096,delayFrontAvgE);
 	
-		MyFill(table,"scintLeft_anodeBack_NoCuts",512,0,4096,ev.scintLeft,512,0,4096,ev.anodeBack);
+		MyFill(table,"scintLeft_anodeBack_NoCuts",512,0,4096,ev.scintLeft,520,-64,4096,ev.anodeBack);
 		MyFill(table,"scintLeft_anodeFront_NoCuts",512,0,4096,ev.scintLeft,512,0,4096,ev.anodeFront);
 		MyFill(table,"scintLeft_cathode_NoCuts",512,0,4096,ev.scintLeft,512,0,4096,ev.cathode);
 	
@@ -82,9 +82,9 @@ namespace EventBuilder {
 		MyFill(table,"x2_scintLeft_NoCuts",600,-300,300,ev.x2,512,0,4096,ev.scintLeft);
 		MyFill(table,"xavg_scintLeft_NoCuts",600,-300,300,ev.xavg,512,0,4096,ev.scintLeft);
 	
-		MyFill(table,"x1_anodeBack_NoCuts",600,-300,300,ev.x1,512,0,4096,ev.anodeBack);
-		MyFill(table,"x2_anodeBack_NoCuts",600,-300,300,ev.x2,512,0,4096,ev.anodeBack);
-		MyFill(table,"xavg_anodeBack_NoCuts",600,-300,300,ev.xavg,512,0,4096,ev.anodeBack);
+		MyFill(table,"x1_anodeBack_NoCuts",600,-300,300,ev.x1,520,-64,4096,ev.anodeBack);
+		MyFill(table,"x2_anodeBack_NoCuts",600,-300,300,ev.x2,520,-64,4096,ev.anodeBack);
+		MyFill(table,"xavg_anodeBack_NoCuts",600,-300,300,ev.xavg,520,-64,4096,ev.anodeBack);
 	
 		MyFill(table,"x1_anodeFront_NoCuts",600,-300,300,ev.x1,512,0,4096,ev.anodeFront);
 		MyFill(table,"x2_anodeFront_NoCuts",600,-300,300,ev.x2,512,0,4096,ev.anodeFront);
@@ -179,7 +179,7 @@ namespace EventBuilder {
 		MyFill(table,"x2_delayFrontAvgE_Cut",600,-300,300,ev.x2,512,0,4096,delayFrontAvgE);
 		MyFill(table,"xavg_delayFrontAvgE_Cut",600,-300,300,ev.xavg,512,0,4096,delayFrontAvgE);
 	
-		MyFill(table,"scintLeft_anodeBack_Cut",512,0,4096,ev.scintLeft,512,0,4096,ev.anodeBack);
+		MyFill(table,"scintLeft_anodeBack_Cut",512,0,4096,ev.scintLeft,520,-64,4096,ev.anodeBack);
 		MyFill(table,"scintLeft_anodeFront_Cut",512,0,4096,ev.scintLeft,512,0,4096,ev.anodeFront);
 		MyFill(table,"scintLeft_cathode_Cut",512,0,4096,ev.scintLeft,512,0,4096,ev.cathode);
 	
@@ -187,9 +187,9 @@ namespace EventBuilder {
 		MyFill(table,"x2_scintLeft_Cut",600,-300,300,ev.x2,512,0,4096,ev.scintLeft);
 		MyFill(table,"xavg_scintLeft_Cut",600,-300,300,ev.xavg,512,0,4096,ev.scintLeft);
 	
-		MyFill(table,"x1_anodeBack_Cut",600,-300,300,ev.x1,512,0,4096,ev.anodeBack);
-		MyFill(table,"x2_anodeBack_Cut",600,-300,300,ev.x2,512,0,4096,ev.anodeBack);
-		MyFill(table,"xavg_anodeBack_Cut",600,-300,300,ev.xavg,512,0,4096,ev.anodeBack);
+		MyFill(table,"x1_anodeBack_Cut",600,-300,300,ev.x1,520,-64,4096,ev.anodeBack);
+		MyFill(table,"x2_anodeBack_Cut",600,-300,300,ev.x2,520,-64,4096,ev.anodeBack);
+		MyFill(table,"xavg_anodeBack_Cut",600,-300,300,ev.xavg,520,-64,4096,ev.anodeBack);
 		
 		MyFill(table,"x1_anodeFront_Cut",600,-300,300,ev.x1,512,0,4096,ev.anodeFront);
 		MyFill(table,"x2_anodeFront_Cut",600,-300,300,ev.x2,512,0,4096,ev.anodeFront);
