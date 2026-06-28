@@ -1,10 +1,10 @@
 -------Data Location----------
-WorkspaceDirectory: /mnt/e/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/LiF
+WorkspaceDirectory: /home/zachpurcell/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/LiF
 -------------------------------
 ------Experimental Inputs------
-ChannelMapFile: /mnt/e/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/ChannelMap_Feb2021_SABRE.txt
-ScalerFile: /mnt/e/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/ScalerFile_Feb2021_SABRE.txt
-CutListFile: /mnt/e/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/emptycutlist.txt
+ChannelMapFile: /home/zachpurcell/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/ChannelMap_Feb2021_SABRE.txt
+ScalerFile: /home/zachpurcell/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/ScalerFile_Feb2021_SABRE.txt
+CutListFile: /home/zachpurcell/compass_ver1x_SPS_SABRE_EventBuilder/WorkingData/emptycutlist.txt
 ZT: 3
 AT: 7
 ZP: 2
@@ -23,5 +23,5 @@ FastCoincidenceWindow_SABRE(ps): 1500000
 -------------------------------
 --------Run Information--------
 MinRun: 191
-MaxRun: 191
+MaxRun: 267
 -------------------------------
